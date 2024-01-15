@@ -35,6 +35,17 @@ public class Tarea5DAimanyRocio {
     public void setPagina(int pagina) {
         this.pagina = pagina;
     }
+
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        sb.append("Tarea5DAimanyRocio{");
+        sb.append("numero=").append(numero);
+        sb.append(", pagina=").append(pagina);
+        sb.append('}');
+        return sb.toString();
+    }
+    
     
     
 }

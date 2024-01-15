@@ -9,8 +9,8 @@ package com.mycompany.tarea5daimanyrocio;
  * @author rocio
  */
 public class Tarea5DAimanyRocio {
-    int numero;
-    int pagina;
+    private int numero;
+    private int pagina;
 
     public Tarea5DAimanyRocio(int numero, int pagina) {
         this.numero = numero;
@@ -18,6 +18,22 @@ public class Tarea5DAimanyRocio {
     }
 
     public Tarea5DAimanyRocio() {
+    }
+
+    public int getNumero() {
+        return numero;
+    }
+
+    public void setNumero(int numero) {
+        this.numero = numero;
+    }
+
+    public int getPagina() {
+        return pagina;
+    }
+
+    public void setPagina(int pagina) {
+        this.pagina = pagina;
     }
     
     

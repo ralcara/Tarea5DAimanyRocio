@@ -12,4 +12,13 @@ public class Tarea5DAimanyRocio {
     int numero;
     int pagina;
 
+    public Tarea5DAimanyRocio(int numero, int pagina) {
+        this.numero = numero;
+        this.pagina = pagina;
+    }
+
+    public Tarea5DAimanyRocio() {
+    }
+    
+    
 }
